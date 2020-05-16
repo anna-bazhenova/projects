@@ -1,0 +1,22 @@
+{
+  "name": "gulpsites",
+  "description": "gulp project",
+  "main": "index.js",
+  "authors": [
+    "Anna Shchapina <shapinaa@gmail.com>"
+  ],
+  "license": "ISC",
+  "homepage": "https://github.com/AnnShchapina/projects",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "jquery": "^3.5.1",
+    "magnific-popup": "^1.1.0"
+  }
+}

@@ -5,6 +5,8 @@
     <title>Fun Weather</title>
     <link rel="stylesheet" href="css/main.css">
     <link href="https://fonts.googleapis.com/css2?family=Ubuntu&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="libs/owl.carousel/dist/assets/owl.carousel.min.css">
+    <link rel="stylesheet" href="libs/owl.carousel/dist/assets/owl.theme.default.min.css">
 </head>
 <body>
 
@@ -62,6 +64,13 @@
     <section class="widgets">
         <h2 class="section-h2">Simple widgets</h2>
         <p class="section-p">Drag and Drop</p>
+        <div class="container">
+            <div class="owl-carousel">
+                <div><img src="img/webp/image_left.webp" alt=""></div>
+                <div><img src="img/webp/image_center.webp" alt=""></div>
+                <div><img src="img/webp/image_right.webp" alt=""></div>
+            </div>
+        </div>
     </section>
 
     <section class="screenshots">
@@ -114,28 +123,61 @@
         <div class="reviews_container-flex">
             <div class="reviews-column">
                 <div>
-                    <p>What art offers is space - a certain breathing room for the spirit. </p>
-                    <p>John Updike</p>
+                    <p class="reviews-main-text">What art offers is space - a certain breathing room for the spirit. </p>
+                    <p class="reviews-author-text">John Updike</p>
                 </div>
                 <div>
-                    <p>The only courage that matters is the kind that gets you from one moment to the next.</p>
-                    <p>Mignon McLaughlin</p>
+                    <p class="reviews-main-text">The only courage that matters is the kind that gets you from one moment to the next.</p>
+                    <p class="reviews-author-text">Mignon McLaughlin</p>
                 </div>
             </div>
             <div class="reviews-column">
                 <div>
-                    <p>We do not see nature with our eyes, but with our understandings and our hearts.</p>
-                    <p>William Hazlitt</p>
+                    <p class="reviews-main-text">We do not see nature with our eyes, but with our understandings and our hearts.</p>
+                    <p class="reviews-author-text">William Hazlitt</p>
                 </div>
                 <div>
-                    <p>No man has a good enough memory to be a successful liar. </p>
-                    <p>Abraham Lincoln</p>
+                    <p class="reviews-main-text">No man has a good enough memory to be a successful liar. </p>
+                    <p class="reviews-author-text">Abraham Lincoln</p>
                 </div>
             </div>
         </div>
     </section>
 
-    <section></section>
+    <section class="download">
+        <div class="download-container-flex">
+            <div>
+                <h2>How Download the app?</h2>
+                <p>Just download the app from the store.
+                    Simple, nice and user-friendly application of theweather. Only relevant and useful information.</p>
+                <a href=""><img src="img/webp/appstore.webp" alt=""></a>
+                <a href=""><img src="img/webp/google_play.webp" alt=""></a>
+            </div>
+            <div>
+                <img src="img/webp/phone_image.webp" alt="">
+                <img src="img/webp/phone_image1.webp" alt="">
+                <img src="img/webp/phone_image2.webp" alt="">
+            </div>
+        </div>
+    </section>
 
+    <footer>
+        <div class="container-flex_home-logo">
+            <h5 class="home-logo">Fun Weather.</h5>
+            <div class="container-flex_home-menu">
+                <a class="home-menu_item" href="">Home</a>
+                <a class="home-menu_item" href="">Features</a>
+                <a class="home-menu_item" href="">Reviews</a>
+                <a class="home-menu_item" href="">Download</a>
+            </div>
+            <a href=""><img class="home-soc-logo" src="img/webp/facebook.webp" alt=""></a>
+            <a href=""><img class="home-soc-logo" src="img/webp/instagram.webp" alt=""></a>
+            <a href=""><img class="home-soc-logo" src="img/webp/twitter.webp" alt=""></a>
+        </div>
+    </footer>
+
+    <script src="libs/jquery/dist/jquery.min.js"></script>
+    <script src="libs/owl.carousel/dist/owl.carousel.min.js"></script>
+    <script src="js/script.js"></script>
 </body>
 </html>

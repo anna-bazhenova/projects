@@ -8,13 +8,21 @@
 
 body
   overflow-x: hidden
+  background: linear-gradient( 90deg, white 99.5%, transparent 50%)
+  background-size: 200px
+  background-color: #ededf6
+
+
+
+
+//1 - home
 
 .home
   width: 100%
   position: relative
   display: block
   background-color: $accent
-  height: 90vh
+  height: 93vh
 
 .home-wave
   position: absolute
@@ -115,11 +123,13 @@ body
   font-weight: 700
   text-decoration: none
 
+
+
+
+//2 - features
+
 .features
   padding-top: 190px
-  background: linear-gradient( 90deg, white 99.5%, transparent 50%)
-  background-size: 200px
-  background-color: #ededf6
 
 .features_container-flex
   display: flex
@@ -164,7 +174,52 @@ body
   position: absolute
   margin-top: 20px
 
+
+
+
+//3 - widgets
+
 .widgets
+  margin-top: 150px
+
+.owl-item
+  box-shadow: 2px 28px 36px 0px rgba(0,0,0,0.12)
+  z-index: 20
+  display: block
+  position: relative
+
+.owl-item.active.center
+  transform: scale(1.2, 1.2)
+  transition: transform .4s ease
+  z-index: 30
+  display: block
+  position: relative
+  margin: 0 -20px
+
+.no-js .owl-carousel, .owl-carousel.owl-loaded
+  width: 60%
+  margin: 0 auto
+
+.no-js .owl-carousel, .owl-carousel.owl-loaded, .owl-carousel .owl-stage-outer, .owl-carousel .owl-stage
+  height: 800px
+  padding-top: 30px
+
+.owl-nav
+  font-size: 150px
+  position: absolute
+  top: 32%
+  color: #C4D0E4
+
+.owl-carousel .owl-nav button.owl-prev
+
+
+.owl-carousel .owl-nav button.owl-next
+
+
+
+//4 - screenshots
+
+.screenshots
   margin-top: 150px
 
 .screenshots_container-flex
@@ -185,7 +240,7 @@ body
   text-align: left
 
 .screenshots-description
-  color: #353854
+  color: $default
   font-family: $font400
   font-size: 24px
   line-height: 36px
@@ -216,6 +271,24 @@ body
 
 
 
+//5 - reviews
+
+.reviews
+  margin-top: 120px
+
+.reviews_container-flex
+  display: flex
+
+.reviews-main-text
+  color: $default
+  font-family: $font400
+  font-size: 24px
+  line-height: 36px
+
+.reviews-author-text
+  color: $default
+  font-family: $font400
+  font-size: 18px
 
 
-
+//6 - download

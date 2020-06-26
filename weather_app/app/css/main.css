@@ -6,14 +6,19 @@
           box-sizing: border-box; }
 
 body {
-  overflow-x: hidden; }
+  overflow-x: hidden;
+  background: -webkit-gradient(linear, left top, right top, color-stop(99.5%, white), color-stop(50%, transparent));
+  background: -o-linear-gradient(left, white 99.5%, transparent 50%);
+  background: linear-gradient(90deg, white 99.5%, transparent 50%);
+  background-size: 200px;
+  background-color: #ededf6; }
 
 .home {
   width: 100%;
   position: relative;
   display: block;
   background-color: #648cff;
-  height: 90vh; }
+  height: 93vh; }
 
 .home-wave {
   position: absolute;
@@ -133,12 +138,7 @@ body {
   text-decoration: none; }
 
 .features {
-  padding-top: 190px;
-  background: -webkit-gradient(linear, left top, right top, color-stop(99.5%, white), color-stop(50%, transparent));
-  background: -o-linear-gradient(left, white 99.5%, transparent 50%);
-  background: linear-gradient(90deg, white 99.5%, transparent 50%);
-  background-size: 200px;
-  background-color: #ededf6; }
+  padding-top: 190px; }
 
 .features_container-flex {
   display: -webkit-box;
@@ -190,6 +190,44 @@ body {
   margin-top: 20px; }
 
 .widgets {
+  margin-top: 150px; }
+
+.owl-item {
+  -webkit-box-shadow: 2px 28px 36px 0px rgba(0, 0, 0, 0.12);
+          box-shadow: 2px 28px 36px 0px rgba(0, 0, 0, 0.12);
+  z-index: 20;
+  display: block;
+  position: relative; }
+
+.owl-item.active.center {
+  -webkit-transform: scale(1.2, 1.2);
+      -ms-transform: scale(1.2, 1.2);
+          transform: scale(1.2, 1.2);
+  -webkit-transition: -webkit-transform .4s ease;
+  transition: -webkit-transform .4s ease;
+  -o-transition: transform .4s ease;
+  transition: transform .4s ease;
+  transition: transform .4s ease, -webkit-transform .4s ease;
+  z-index: 30;
+  display: block;
+  position: relative;
+  margin: 0 -20px; }
+
+.no-js .owl-carousel, .owl-carousel.owl-loaded {
+  width: 60%;
+  margin: 0 auto; }
+
+.no-js .owl-carousel, .owl-carousel.owl-loaded, .owl-carousel .owl-stage-outer, .owl-carousel .owl-stage {
+  height: 800px;
+  padding-top: 30px; }
+
+.owl-nav {
+  font-size: 150px;
+  position: absolute;
+  top: 32%;
+  color: #C4D0E4; }
+
+.screenshots {
   margin-top: 150px; }
 
 .screenshots_container-flex {
@@ -249,3 +287,23 @@ body {
 
 .screenshots-icon-down {
   margin-top: 42px; }
+
+.reviews {
+  margin-top: 120px; }
+
+.reviews_container-flex {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex; }
+
+.reviews-main-text {
+  color: #353854;
+  font-family: "Ubuntu", sans-serif;
+  font-size: 24px;
+  line-height: 36px; }
+
+.reviews-author-text {
+  color: #353854;
+  font-family: "Ubuntu", sans-serif;
+  font-size: 18px; }

@@ -307,3 +307,78 @@ body {
   color: #353854;
   font-family: "Ubuntu", sans-serif;
   font-size: 18px; }
+
+.download {
+  background-color: #648cff;
+  margin-top: 122px; }
+
+.download h2 {
+  color: #FFFFFF;
+  font-family: "Ubuntu700", sans-serif;
+  font-size: 36px;
+  text-transform: uppercase; }
+
+.download-text {
+  margin-right: 100px; }
+
+.download-desc {
+  color: #FFFFFF;
+  font-family: "Ubuntu", sans-serif;
+  font-size: 18px;
+  width: 356px;
+  padding-top: 46px;
+  padding-bottom: 32px; }
+
+.download-container-flex {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+      -ms-flex-align: center;
+          align-items: center; }
+
+.download-image {
+  padding-top: 63px; }
+
+.download-image-center {
+  margin: 0 -100px;
+  z-index: 10;
+  position: relative;
+  display: inline-block; }
+
+footer {
+  background-color: #353854;
+  margin-top: -6px; }
+
+.padding-footer {
+  padding: 100px 0; }
+
+.footer-copy {
+  padding: 51px 0 85px;
+  border-top: 1px #434769 solid;
+  width: 1560px;
+  margin: 0 auto; }
+
+.footer-copy p {
+  color: #565b87;
+  font-size: 16px;
+  font-family: "Ubuntu", sans-serif;
+  position: absolute;
+  right: 250px; }
+
+.menu-color {
+  color: #b5b5c8; }
+
+.logo-color {
+  color: #648cff; }
+  .logo-color span {
+    color: #fc6a42; }
+
+.active {
+  color: #FFFFFF; }
